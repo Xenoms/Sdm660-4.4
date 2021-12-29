@@ -97,7 +97,7 @@ build(){
 	then
 		make_build "${1}-old_defconfig"
 	else
-		make_build "${1}-new_defconfig"
+		make_build "${1}-old_defconfig"
 	fi
 		mkzip "$KERNELNAME-$LOCALVERSION-${1}${2}${3}-$DATE.zip"
 }
