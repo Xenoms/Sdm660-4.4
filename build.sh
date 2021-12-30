@@ -8,7 +8,7 @@ export KBUILD_BUILD_USER=Devil_Rush°
 
 export KBUILD_BUILD_HOST=funproject™
 
-export TOOLCHAIN=clang
+export TOOLCHAIN=gcc
 
 export DEVICES=lavender
 
